@@ -7,7 +7,26 @@
  */
 
 
+.portfolio-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  /* Adjust the gap between items */
+}
 
+.portfolio-card {
+  flex: 1 0 calc(50% - 10px);
+  /* Each column takes 50% width minus the gap */
+  max-width: calc(50% - 10px);
+  /* Set max-width to prevent exceeding 50% width */
+}
+
+.full-width {
+  flex: 1 0 100%;
+  /* Full-width item takes 100% width */
+  max-width: 100%;
+  /* Set max-width to prevent exceeding 100% width */
+}
 
 
 /*-----------------------------------*\
