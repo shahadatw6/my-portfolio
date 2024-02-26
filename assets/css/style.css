@@ -11,7 +11,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  /* Adjust the gap between items */
+  /* Adjust the gap between columns */
 }
 
 .portfolio-card {
@@ -67,6 +67,7 @@
 
   --ff-recoleta: "Recoleta", serif;
   --ff-gordita: "Gordita", sans-serif;
+  --ff-josefin: "Josefin Sans", sans-serif;
   
   --fs-1: 6rem;
   --fs-2: 5rem;
@@ -159,7 +160,7 @@ ion-icon { pointer-events: none; }
 address { font-style: normal; }
 
 html {
-  font-family: var(--ff-gordita);
+  font-family: var(--ff-josefin);
   font-size: 10px;
   scroll-behavior: smooth;
 }
@@ -502,7 +503,7 @@ body.active { overflow: hidden; }
 
 .hero .wrapper {
   position: relative;
-  text-align: left;
+  text-align: center;
   height: 1.2em;
   margin-block: 10px 25px;
 }
@@ -510,7 +511,7 @@ body.active { overflow: hidden; }
 .hero .wrapper .strong {
   position: absolute;
   top: 0;
-  left: 50%;
+  left: 60%;
   transform: translateX(-50%);
   width: 300px;
   font-weight: inherit;
